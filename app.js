@@ -1,5 +1,5 @@
 /* ========= KULLANICI AYARLARI ========= */
-const OPENAI_KEY = "sk-..."           // anahtarın buraya
+const OPENAI_KEY = "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"           // anahtarın buraya
 const MODEL_ASR  = "whisper-1"
 const MODEL_GPT  = "gpt-4o-mini"
 /* ===================================== */
