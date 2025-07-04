@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Video → Türkçe Transkript (Statik)</title>
+  <style>
+    body{font-family:system-ui, sans-serif;max-width:640px;margin:auto;padding:2rem}
+    .line{display:flex;gap:.5rem;border:1px solid #ddd;border-radius:.5rem;margin-top:.5rem;padding:.5rem}
+    .line button{background:#00b894;color:#fff;border:none;border-radius:.3rem;padding:.3rem .6rem;cursor:pointer}
+  </style>
+</head>
+<body>
+  <h1>Video → Türkçe Transkript</h1>
+
+  <input id="video" type="file" accept="video/mp4" />
+  <button id="go">Yükle & Çevir</button>
+  <div id="log"></div>
+  <ul id="list"></ul>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
